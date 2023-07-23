@@ -2,7 +2,7 @@
   "name": "myportfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "tailwind.config.js",
   "scripts": {
     "start": "vite",
     "build": "vite build"

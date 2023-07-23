@@ -1,5 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  build: {
+    rollupOptions: {
+      input: {
+        main: '/main.js',
+      },
+    },
+  },
   content: ["*"],
   theme: {
     screens: {
